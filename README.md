@@ -82,7 +82,8 @@ public class MainFX extends Application {
          //TODO 1) use a nice title and message for the dialog. 
       	 //     2) showAndWait returns an Optional<String> (handle 'Cancel' properly)
 			   String input = new TextInputDialog().showAndWait().orElse(null); 
-			   //here we directly add it to the list; TODO: modify your model (add a new entry).
+			   //here we directly add it to the list; 
+			   //don't do this for the assignment. TODO: modify your 'real' model (add a new entry).
 			   myList.add(input);
       }
     });
